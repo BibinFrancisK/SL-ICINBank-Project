@@ -1,0 +1,23 @@
+[
+	{
+		accountNumber: "123456789",
+		accountHolderName: "John Philip",
+		accountCIFNumber: "ICIN0001",
+		accountBranch: "Mumbai",
+		accountIsNetBankingReg: 0,
+		accountBalancePrimary: 95000.00,
+		accountBalanceSavings: 4000.00
+	},
+	{
+		accountNumber: "987654321",
+		accountHolderName: "Andrew Batton",
+		accountCIFNumber: "ICIN0002",
+		accountBranch: "HYDERABAD",
+		accountIsNetBankingReg: 0,
+		accountBalancePrimary: 2100.10,
+		accountBalanceSavings: 9600.76
+	}
+]
+---
+2 accounts are made on startup of the application through "docker-compose.yml"
+Use this 2 accounts to play with the application
