@@ -21,28 +21,28 @@ public class UserPortalTesting {
         driver.manage().window().maximize();
     }
 
- /*   @Test(priority=0)
-    public void userRegistration() {    
+    @Test(priority=0)
+    public void userRegistration() throws InterruptedException {    
         driver.findElement(By.linkText("Register Here")).click();
         driver.findElement(By.id("firstName")).sendKeys("Dylan");  
         driver.findElement(By.id("lastName")).sendKeys("Matthew");
-        driver.findElement(By.id("accountNumber")).sendKeys("123321456");
+        driver.findElement(By.id("accountNumber")).sendKeys("987654321");
         driver.findElement(By.xpath("/html/body/app-root/app-registration/div/div/div[2]/form/div/div[5]/a/span")).click();
         driver.findElement(By.id("password")).sendKeys("testpw");
         driver.findElement(By.id("passwordConfirmation")).sendKeys("testpw");
         driver.findElement(By.linkText("Register Your Account For Net Banking")).click();
-        Alert alert = driver.switchTo().alert();
-        String msg = alert.getText();
+        Thread.sleep(7000);
+        Alert alert = driver.switchTo().alert();        
         alert.accept();
-        System.out.println(msg);   
         
     }
-    */
+    
     
     @Test(priority=1) 
     public void userLogin() throws InterruptedException{
+    	driver.get(baseUrl);
     	Thread.sleep(7000);
-    	driver.findElement(By.id("loginUserId")).sendKeys("333w5awt"); 
+    	driver.findElement(By.id("loginUserId")).sendKeys("b7bcB737"); 
     	driver.findElement(By.id("loginUserPassword")).sendKeys("test"); 
     	driver.findElement(By.linkText("Login")).click();
     	Thread.sleep(3000);
@@ -85,7 +85,7 @@ public class UserPortalTesting {
     public void userTransferMoney() throws InterruptedException{
     	Thread.sleep(7000);
     	driver.findElement(By.xpath("//*[@id=\"navbarSupportedContent\"]/ul[1]/li[5]/button")).click(); 
-    	driver.findElement(By.id("transferAccountNumber")).sendKeys("123456765");
+    	driver.findElement(By.id("transferAccountNumber")).sendKeys("987654321");
     	driver.findElement(By.id("transferAccountType")).sendKeys("Savings");
     	driver.findElement(By.xpath("/html/body/app-root/app-bank/app-transfer/div/div/div[2]/form/div/div[4]/div[1]/input")).click();
     	driver.findElement(By.id("tranferAmount")).sendKeys("1500");

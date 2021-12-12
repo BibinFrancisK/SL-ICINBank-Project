@@ -5,9 +5,11 @@
     <classes>
       <class name="com.automationtesting.AdminPortalTesting">
         <methods>
+          <include name="manageUserTransactions"/>
           <include name="launchBrowser"/>
-          <include name="manageChequeBookRequests"/>
+          <include name="invalidLogin"/>
           <include name="afterMethod"/>
+          <include name="adminLogout"/>
         </methods>
       </class> <!-- com.automationtesting.AdminPortalTesting -->
     </classes>
