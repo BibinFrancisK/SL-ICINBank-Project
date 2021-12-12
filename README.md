@@ -1,6 +1,5 @@
 # ICIN Bank - Simplilearn Capstone Project
-This application uses <b>Angular frontend</b>, <b>Spring Boot API</b>, and <b>MySQL</b>.
-The whole application is containerized using <b>Docker</b>.
+This application uses <b>Angular frontend</b>, <b>Spring Boot API</b>, and <b>MySQL</b>. 
 
 ## Features of the application
 - Users can:
