@@ -9,7 +9,7 @@ This application uses <b>Angular frontend</b>, <b>Spring Boot API</b>, and <b>My
 	- Transfer funds between different accounts and add recipients
 	- Request cheque books for different accounts
   
--Admin can:
+- Admin can:
 	- Authorize the roles and guidelines for the user
 	- Grant access to the user regarding money transfer, deposits, and withdrawal
 	- Block the user account in case of any threat
