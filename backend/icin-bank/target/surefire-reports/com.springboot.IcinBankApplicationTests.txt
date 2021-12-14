@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.springboot.IcinBankApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.679 s - in com.springboot.IcinBankApplicationTests
